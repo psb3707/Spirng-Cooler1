@@ -94,4 +94,9 @@ public class TodoRepositoryTest {
         Assertions.assertEquals(2, list.getContent().get(0).getId());
 
     }
+
+    @Test
+    public void Querydsl테스트() {
+        todoRepository.search1();
+    }
 }
